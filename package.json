@@ -1,0 +1,15 @@
+{
+  "name": "dbz",
+  "version": "1.0.0",
+  "description": "chito's website",
+  "main": "index.html",
+  "scripts": {
+    "start": "browser-sync start --server --files \"index.html, styles.scss\"",
+    "directory": "browser-sync start --directory --server --files \"*.css, *.html, *.js\" --port 9999"
+  },
+  "author": "vic",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.24.4"
+  }
+}
